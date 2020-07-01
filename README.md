@@ -42,7 +42,7 @@ I recommend doing the Long challenge every month, and doing Leetcode as you are 
 **It's important to not look up the answer immediately. The value in spending hours considering failing approaches is that you learn and gain an intuition for what does not work. That way, in an interview, you spend your time exploring only solutions that have potential.**
 
 #### Goals: 
-Div1 on Codeforces or Codechef and completing Leetcode in < 1 hour is more than enough, but a good benchmark to strive for.
+Division 1 on Codeforces or Codechef and completing the weekly Leetcode contest in < 1 hour is overkill but a good benchmark to strive for anyway.
 
 # Learning Objectives
 - Learn Algorithmic concepts
@@ -84,6 +84,8 @@ Having written this code many times this is way cleaner to debug than having a b
   - Works every time
   
 # Practice Interview
+Once you feel like you have mastered most concepts, give these questions a try. Try to complete each in 45 minutes or less.
+
 ### List of Questions to do
 
 - [merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) <details>
@@ -148,6 +150,7 @@ Having written this code many times this is way cleaner to debug than having a b
 </details>
 
 ### Other questions I like:
+Some questions with elegant or clever solutions:
 - [remove palindromic subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)
 - [reverse substrings between each pair of parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
 - [convert to base -2](https://leetcode.com/problems/convert-to-base-2/)
@@ -156,5 +159,5 @@ Having written this code many times this is way cleaner to debug than having a b
 - [trapping rain water](https://leetcode.com/problems/trapping-rain-water/)
 - [maximum performance of a team](https://leetcode.com/problems/maximum-performance-of-a-team/)
 
-### Practice with Googler
+### Practice with a Googler
 Ask a friend to give you a mock interview, behavioral and technical. I'm at `"".join("bking2015", "@", "gmail.com")`
