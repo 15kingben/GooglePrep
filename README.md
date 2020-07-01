@@ -85,7 +85,76 @@ Having written this code many times this is way cleaner to debug than having a b
   
 # Practice Interview
 ### List of Questions to do
- - TBD
+
+- [merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/) <details>
+  <summary>Open after solving</summary>
+  
+  This is about 30% of all interview questions, so I hope you solved it.  
+</details>
+
+
+- [critical connections in a network](https://leetcode.com/problems/critical-connections-in-a-network/) <details>
+  <summary>Open after solving</summary>
+  
+  DFS Lowlink coming in huge on this one. Here's another search based question: [minimum moves to move a box to their target location](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location/)
+</details>
+
+- [minimize malware spread](https://leetcode.com/problems/minimize-malware-spread/) <details>
+  <summary>Open after solving</summary>
+  
+  This type of problem can be solved with Union-Find but I usually go for BFS/DFS when available. Here's another similar one: [check if there is a valid path in the grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/)
+</details>
+
+- [course schedule II](https://leetcode.com/problems/course-schedule-ii/) <details>
+  <summary>Open after solving</summary>
+  
+  Topological sort is definitely something you want to know in and out. Here's another graph one: [find eventual safe states](https://leetcode.com/problems/find-eventual-safe-states/)
+</details>
+
+- [construct target array with multiple sums](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) <details>
+  <summary>Open after solving</summary>
+  
+  This one is pretty tricky, but it utilizes a very important technique of working backwards. If you didn't get that one, give this one a shot: [burst balloons](https://leetcode.com/problems/burst-balloons/)
+</details>
+
+- [uncrossed lines](https://leetcode.com/problems/uncrossed-lines/) <details>
+  <summary>Open after solving</summary>
+  
+  It's pretty common especially for Google to hide standard problems behind some logical transformation that you need to think through. In an interview you would want to be talking through your though process with your inteviewer, and they might give you hints to put you on track. Here's some more DP practice: [count all valid pickup and delivery options](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)
+</details>
+
+- [smallest sufficient team](https://leetcode.com/problems/smallest-sufficient-team/) <details>
+  <summary>Open after solving</summary>
+  
+  I hope you watched the Bitmask DP video, it's not as common in interviews, but if you can't find an optimal solution you can maybe break out the bitmask DP before moving on to something more optimized. Here's some more practice with bitmasks: [maximum students taking exam](https://leetcode.com/problems/maximum-students-taking-exam/)
+</details>
+
+- [daily temperatures](https://leetcode.com/problems/daily-temperatures/) <details>
+  <summary>Open after solving</summary>
+  
+  Ah the classic Binary tree problem. In java you can use a TreeMap or TreeSet. These are pretty common and you'll look like a chump if O(N) is the best you can do. Here's another one to try: [minimum number of taps to open to water a garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+</details>
+
+- [course schedule III](https://leetcode.com/problems/course-schedule-iii/) <details>
+  <summary>Open after solving</summary>
+  
+  Lots of question have this format of sets of ranges, but the solutions can be varied. Here's are some more to try: [maximum profit in job scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) or [minimum number of arros to burst balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) or [brick wall](https://leetcode.com/problems/brick-wall/)
+</details>
+
+- [find in mountain array](https://leetcode.com/problems/find-in-mountain-array/) <details>
+  <summary>Open after solving</summary>
+  
+  A binary search question was the only one I messed up on in my actual interview. I think they are pretty tough to intuit and have a lot of edge cases that are tricky to iron out without being able to run code. Here's some more binary search: [find first and last position of element in sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+</details>
+
+### Other questions I like:
+- [remove palindromic subsequences](https://leetcode.com/problems/remove-palindromic-subsequences/)
+- [reverse substrings between each pair of parentheses](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
+- [convert to base -2](https://leetcode.com/problems/convert-to-base-2/)
+- [distinct sequences II](https://leetcode.com/problems/distinct-subsequences-ii/)
+- [element appearing in more than 25% of sorted array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/)
+- [trapping rain water](https://leetcode.com/problems/trapping-rain-water/)
+- [maximum performance of a team](https://leetcode.com/problems/maximum-performance-of-a-team/)
 
 ### Practice with Googler
-Ask a friend to give you a mock interview, behavioral and technical.
+Ask a friend to give you a mock interview, behavioral and technical. I'm at `"".join("bking2015", "@", "gmail.com")`
